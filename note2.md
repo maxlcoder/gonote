@@ -29,7 +29,25 @@ switch a := 1; a {
 }
 
 // 外置参数
-switch 
+a := 1
+switch a {
+    case 1:
+        fmt.Println("a is 1")
+    case 2:
+        fmt.Println("a is 2")        
+   default:
+       fmt.Println("a is nothing")
+} 
 
+// 内部判断
+a := 1
+switch {
+    case a == 1:
+        fmt.Println("a is 1")
+    case a == 2:
+        fmt.Println("a is 2")
+    default:
+        fmt.Println("a is nothing")
+}
 
 ```
